@@ -1,0 +1,83 @@
+body{
+	font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  backgound-color: #aab0be;
+  font-family: Arial;
+  box-sizing: border-box;
+  text-align:center;
+}
+.container{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  display:flex;
+  flex-direction: column;
+  height: 420px;
+  width: 250px;
+  border-radius: 3px;
+  margin: 20px auto;
+  background-color: #E6E6F0;
+}
+.num-um, .num-ds, .num-ts ,.num-qt, .num-qtt{
+  height: 16%;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+}
+.display, .display--hist{
+  overflow:hidden;
+  padding-right: 15px; 
+  text-align: end;
+  padding-top:22px;
+  padding-bottom:18px;
+  margin:0;
+}
+.display{
+  padding-top: 1px;
+  font-size: 17pt ;
+}
+.display--hist{
+	color: #AAA8AD;
+}
+.btn{
+  cursor:pointer;
+  
+  font-size: 16pt;
+  margin-top:2px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  box-sizing: border-box;
+  
+  border-style:none;
+  border-width: 1px ;
+  border-color: #DBDAE6 ;
+  border-radius: 50%;
+  
+  transition: ease 0.2s;
+  
+  height: 50px;
+  width: 50px;
+}
+#ponto{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+.btn:active{
+  background-color: #a9a8b3;
+}
+.btn:hover{
+  border-style:solid;
+  border-width: 1px ;
+  border-color: #c6c6ce ;
+  border-radius: 50%;
+}
+.e:hover{
+  background-color: #C2CBF2 ;
+} 
+.e:active{
+  background-color: #8393FC ;
+}
